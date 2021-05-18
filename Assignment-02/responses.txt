@@ -1,0 +1,12 @@
+Connor Kennedy
+
+6. Data travels through the internet in small chunks called packets which travel
+through different networks to reach its destination.
+
+7. An IP address is assigned to a specific computer to locate it in a network
+and a DNS is a domain name service for a website.
+
+8. Cookies are small pieces of data that are used to identify your computer as
+you use a given network.
+
+9. Protocol, Domain Name, Path.
