@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+  color: gold;
+
+}
+h2{
+  text-align: center;
+  color: #CB4154;
+
+
+
+
+}
+
+.square{
+
+  height: 25%;
+
+}
+
+#green{
+  background-color: #77DD77;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#yellow {
+  background-color: gold;
+}
+
+#orange {
+  background-color: orange;
+  opacity: 0.5;
+  height: 300px;
+  width: 300px;
+  left: 500px;
+  position: absolute;
+}
+body{
+  background-color: #AEC6CF
+}
