@@ -1,0 +1,54 @@
+
+body {
+  background-color: green;
+  color: white;
+  padding:5px;
+  font-family: 'Mate SC', serif;
+}
+
+h1:first-letter {
+  font-family: 'Parisienne', cursive;
+  font-size: 4em;
+
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+.text {
+  background-color: white;
+  border-style: outset;
+  color: black;
+  padding: 5px;
+}
+p:first-of-type:first-letter {
+  font-family: 'Parisienne', cursive;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+a {
+  background-color: yellow;
+  color: black;
+  padding: 8px;
+  border-style: groove;
+  text-decoration: underline;
+
+}
+a:hover{
+  font-style: italic;
+}
+a:visited {
+  color: #999999;
+}
+a:active {
+  background-color: orange;
+  color: red;
+}
