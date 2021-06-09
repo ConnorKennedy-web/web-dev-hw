@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body {
+  font-family: 'Viaoda';
+  font-size: 1.5em;
+  color:white;
+}
+
+.navigation {
+  background-color: #A9A9A9;
+  width: 300px;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.navigation a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+.main {
+  background-color: black;
+
+  margin-right: 300px;
+  padding: 2em;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+.logo:hover {
+  border: 5px solid #997;
+}
+.logo {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+
+  margin: 0 auto 1em auto;
+
+  border: 5px solid #000;
+  border-radius: 100%;
+
+  line-height: 150px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.site-info {
+  margin: 2em auto;
+  text-align: center;
+  font-size: 175%;
+}
+.maintitle {
+  color: #998;
+  font-size: 150%
+}
+
+.site-links {
+  margin: 0 3em;
+}
+.site-links a {
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+}
+.site-links a:hover {
+  text-transform: uppercase;
+}
