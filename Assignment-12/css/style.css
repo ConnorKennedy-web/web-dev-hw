@@ -1,0 +1,121 @@
+
+body {
+  background-color: blue;
+  background-image: url('../images/undersea.jpg');
+}
+
+h1 {
+  font-family: 'Staatliches';
+  margin: 0;
+  text-align: center;
+}
+
+* {
+  font-family: 'Roboto';
+  color: black;
+}
+h3 {
+  font-family: 'Staatliches';
+  font-size: 1.5em;
+  color: white;
+  letter-spacing: 1px;
+
+
+
+}
+
+a {
+  text-decoration: none;
+}
+.main-container {
+  width: 60%;
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+  background-color: white;
+  border-right: 13px solid #999;
+  border-bottom: 13px solid #666;
+
+}
+header {
+
+}
+
+
+main {
+  margin: 3em 0
+  text-align: justify;
+
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  font-size: .75em;
+}
+
+.site-heading {
+  width: 50%;
+  margin: 4em auto;
+  padding: 38px;
+  position: relative;
+  z-index: 1;
+  border: 5px double #088F8F;
+
+  text-align: center;
+}
+#site-title {
+  margin: .5em;
+  line-height: 1em;
+  font-size: 4em;
+}
+#site-slogan {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666;
+
+}
+.post-content {
+  border: 5px double #088F8F;
+
+}
+.post-content p {
+  margin: 2em 0;
+}
+.post-content p::first-letter {
+  font-size:2em;
+  font-weight: 400;
+  color: lightblue
+}
+.signup-link {
+  width: 12em;
+  margin: auto;
+  min-height: 5em;
+
+}
+.button {
+  margin: auto;
+  padding: 0 .5em;
+  position: relative;
+  background-color: lightblue;
+  border-width: 10px 15px 15px 10px;
+  border-color: #999 #666 #666 #999;
+  border-style: solid;
+  text-align: center;
+}
+.button:hover {
+text-decoration: underline overline;
+text-decoration-color: white;
+text-decoration-style: solid;
+}
+.button h3:hover {
+color: #7393B3
+}
+.button h3:active {
+  color: blue;
+  text-decoration: underline overline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+
+}
