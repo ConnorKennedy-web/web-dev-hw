@@ -1,0 +1,63 @@
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+
+}
+
+
+#site-links {
+  margin: 0;
+  padding: 0;
+display: inline-block;
+}
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em 1em;
+  display: inline-block;
+
+  background-color: purple;
+
+  text-align: center;
+  color: white;
+}
+#site-links .menu-item:hover {
+  color: black;
+  background-color: darkred;
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+
+}
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkred;
+  z-index: 5;
+}
+#site-links .dropdown-content a {
+  color: white;
+  font-family: 'Staatliches';
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: grey;
+}
+
+#social-link {
+
+}
